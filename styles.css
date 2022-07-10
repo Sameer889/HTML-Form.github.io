@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora&family=Open+Sans:wght@300&family=Playfair+Display:wght@500&family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, rgba(178, 6, 221, 0.65), rgba(178, 6, 221, 0.65)),
+        url('https://images.pexels.com/photos/4778621/pexels-photo-4778621.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+/* Main Heading */
+#heading {
+    text-align: center;
+}
+
+#title {
+    padding: 34px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    letter-spacing: 2px;
+
+}
+
+/* Sub Heading in Paragraph */
+#sub-heading {
+    text-align: center;
+}
+
+#description {
+    color: white;
+    padding: 7px 0px 34px 0px;
+    margin: -30px 0px 0px 0px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+
+}
+
+/* Styling the form */
+#form-1 {
+    background-color: rgb(21, 15, 54);
+    width: 50%;
+    color: white;
+    margin: 0px auto;
+    padding: 50px;
+}
+
+#name-label,
+#email-label,
+#number-label,
+#selection,
+#message,
+#boxes {
+    display: block;
+    margin: 10px 2px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 0px 0px 20px 0px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.radio-check {
+    margin: 4px 0px;
+    padding: 4px 0px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+}
+
+.inline {
+    width: unset;
+}
+
+fieldset {
+    border: none;
+}
+
+#submit {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(39, 206, 39);
+    color: white;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
